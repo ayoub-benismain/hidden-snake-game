@@ -1,4 +1,5 @@
 import type React from "react"
+// <CHANGE> updated metadata to reflect Troll Snake game
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
@@ -9,7 +10,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Troll Snake Game",
-  description: "A trolling snake game with special traps and brain damage power-ups",
+  description: "A challenging snake game with trolling mechanics",
   generator: "v0.app",
   icons: {
     icon: [
